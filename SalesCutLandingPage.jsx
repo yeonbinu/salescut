@@ -174,11 +174,11 @@ export default function SalesCutLandingPage() {
 
       <section className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
         <motion.div
-            variants={fadeUp}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            transition={{ duration: 0.6 }}
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 0.6 }}
         >
           <VideoPlaceholder text="메인 브랜딩 영상 또는 서비스 하이라이트" className="w-full max-w-5xl mx-auto shadow-2xl shadow-black/40" aspectRatio="aspect-[21/9] sm:aspect-video" />
         </motion.div>
@@ -283,7 +283,7 @@ export default function SalesCutLandingPage() {
                   </div>
                   <h3 className="text-2xl font-semibold">{item.title}</h3>
                   <p className="mt-4 mb-8 text-base leading-7 text-white/65 flex-grow">{item.description}</p>
-                  
+
                   <div className="mt-auto">
                     <VideoPlaceholder text={`${item.title} 예시 이미지/영상`} aspectRatio="aspect-video" className="w-full !rounded-xl" />
                   </div>
